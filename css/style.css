@@ -24,7 +24,7 @@ a.logo img {
 }
 
 section.primera-seccion {
-    background-image: url("/img/BANNER1.png");
+    background-image: url(/img/BANNER1.png);
     width: auto;
     height: auto;
 }
@@ -45,7 +45,7 @@ section.primera-seccion h3{
 
 /*tarjetas*/
 section.primera-seccioOn {
-    background-image: url("/img/BANNER1.png");
+    background-image: url(/img/BANNER1.png);
     width: auto;
     height: auto;
 }
