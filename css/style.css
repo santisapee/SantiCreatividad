@@ -24,7 +24,7 @@ a.logo img {
 }
 
 section.primera-seccion {
-    background-image: url("/img/BANNER1.png");
+    background-color: grey;
     width: auto;
     height: auto;
 }
@@ -45,7 +45,7 @@ section.primera-seccion h3{
 
 /*tarjetas*/
 section.primera-seccioOn {
-    background-image: url("/img/BANNER1.png");
+    background-color: grey;
     width: auto;
     height: auto;
 }
@@ -76,7 +76,7 @@ section.seccionx {
     grid-column: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    background-image: url("/img/BANNER1.png");
+    background-color: gray;
 }
 
 
