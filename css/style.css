@@ -24,19 +24,21 @@ a.logo img {
 }
 
 section.primera-seccion {
-    background-color: grey;
+    background-image: url(../img/BANNER2.png);
+    color: white;
     width: auto;
     height: auto;
 }
 
-section.primera-seccion h1{
+section.primera-seccion h3{
     text-align: center;
     color: white;
-    font-weight: 700;
+    padding-bottom: 50px;
     padding-top: 50px;
+    position: relative;
 }
 
-section.primera-seccion h3{
+section.primera-seccion p{
     text-align: center;
     color: white;
     padding-bottom: 50px;
@@ -45,7 +47,8 @@ section.primera-seccion h3{
 
 /*tarjetas*/
 section.primera-seccioOn {
-    background-color: grey;
+    background-image: url(../img/BANNER1.png);
+    color: white;
     width: auto;
     height: auto;
 }
@@ -76,9 +79,19 @@ section.seccionx {
     grid-column: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
 }
 
+section.seccionx h1 {
+    padding: 20px;
+}
+
+.w3-card-4 {
+    background-image: url(../img/BANNER1.png);
+    text-align: center;
+}
 
 /*afuera de tarjeta*/
 div.col-sm-4 {
