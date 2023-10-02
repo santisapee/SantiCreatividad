@@ -1,0 +1,251 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    justify-content: left;
+    align-content: left;
+}
+
+a.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.primera-seccion {
+    background-image: url("/img/fxb.png");
+    width: auto;
+    height: auto;
+}
+
+section.primera-seccion h1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+section.primera-seccion h3{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+/*tarjetas*/
+section.primera-seccioOn {
+    background-image: url("/img/fxb.png");
+    width: auto;
+    height: auto;
+}
+
+section.primera-seccioOn h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+/*tarjetas2*/
+div.marco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+div.marco div {
+    width: auto;
+    height: auto;
+}
+
+section.seccionx {
+    display: grid;
+    grid-column: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/BANNER\ 1.png);
+}
+
+
+/*afuera de tarjeta*/
+div.col-sm-4 {
+    border-radius: 50%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+}
+
+/*dentro de afuera de tarjeta*/
+
+div.card {
+    border-radius: 70px;
+    border: black;
+}
+/*photoshop color1*/
+div.card-body0 {
+    background-color: rgb(10, 101, 238);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+/*premire color1*/
+div.card-body1 {
+    background-color: rgb(161, 7, 223);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+/*illustrator color1*/
+div.card-body2 {
+    background-color: rgb(238, 75, 10);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+/*SEGUNDA SECCION*/
+section.segunda-seccion {
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+section.segunda-seccion div img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+div.segundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+}
+/*photoshop*/
+div.tercero {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+div.tercero h1 {
+    color: white;
+    background-color: rgb(10, 101, 238);
+    border-radius: 30px;
+    padding-left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right: 100px;
+}
+
+div.tercero p {
+    color: white;
+}
+/*premiere*/
+div.terceroo {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+div.terceroo h1 {
+    color: white;
+    background-color:rgb(238, 75, 10);
+    border-radius: 30px;
+    padding-left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.terceroo p {
+    color: white;
+}
+/*illustrator*/
+div.tercerooo {
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+div.tercerooo h1 {
+    color: white;
+    background-color:rgb(161, 7, 223);
+    border-radius: 30px;
+    padding-left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.tercerooo p {
+    color: white;
+}
+
+footer.sociales {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+section.seccion-photoshop {
+    background-color: rgb(10, 101, 238);
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+section.seccion-premiere {
+    background-color: rgb(161, 7, 223);
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+section.seccion-illustrator {
+    background-color: rgb(238, 75, 10);
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+div.terceroo h1 {
+    color: white;
+    background-color:rgb(238, 75, 10);
+    border-radius: 30px;
+    padding-left: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
