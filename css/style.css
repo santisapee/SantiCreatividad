@@ -14,6 +14,7 @@ a.logo {
     margin-right: 10px;
     justify-content: left;
     align-content: left;
+    
 }
 
 a.logo img {
@@ -21,6 +22,11 @@ a.logo img {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+/*BARRA NAV A LA DERECHA*/
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
 }
 
 section.primera-seccion {
@@ -89,9 +95,88 @@ section.seccionx h1 {
 }
 
 .w3-card-4 {
-    background-image: url(../img/BANNER1.png);
     text-align: center;
+    background-image: url(../img/BANNER1.png);
+    background-position: 0%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
 }
+
+/*testeo*/
+.fliping {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* Style the back side photoshop*/
+  .flip-card-back#dasss {
+    background-color: rgb(10, 101, 238);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* Style the back side premiere*/
+  .flip-card-back#dass {
+    background-color:rgb(161, 7, 223);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  /* Style the back side illustrator */
+  .flip-card-back#das {
+    background-color:rgb(238, 75, 10);
+    color: white;
+    transform: rotateY(180deg);
+  }
+/*fin testeo*/
+
+
 
 /*afuera de tarjeta*/
 div.col-sm-4 {
@@ -182,6 +267,7 @@ div.tercero h1 {
 
 div.tercero p {
     color: white;
+    padding-top: 20px;
 }
 /*premiere*/
 div.terceroo {
@@ -192,7 +278,7 @@ div.terceroo {
 
 div.terceroo h1 {
     color: white;
-    background-color:rgb(238, 75, 10);
+    background-color: rgb(238, 75, 10);
     border-radius: 30px;
     padding-left: 125px;
     padding-top: 10px;
@@ -201,6 +287,7 @@ div.terceroo h1 {
 
 div.terceroo p {
     color: white;
+    padding-top: 20px;
 }
 /*illustrator*/
 div.tercerooo {
@@ -220,6 +307,7 @@ div.tercerooo h1 {
 
 div.tercerooo p {
     color: white;
+    padding-top: 20px;
 }
 
 footer.sociales {
