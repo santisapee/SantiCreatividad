@@ -183,7 +183,14 @@ section.seccionx h1 {
   }
 /*fin testeo*/
 
-
+/*VISTA CELU PARA LOS 3 DE TUTO*/
+@media (min-width: 200px) and (max-width: 690px) {
+    div.fliping{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
 
 /*afuera de tarjeta*/
 div.col-sm-4 {
