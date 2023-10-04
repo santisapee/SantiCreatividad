@@ -30,7 +30,7 @@ a.logo img {
 }
 
 section.primera-seccion {
-    background-image: url(../img/BANNER2.png);
+    background-image: url(../img/BANNER1.png);
     color: white;
     width: auto;
     height: auto;
@@ -106,14 +106,14 @@ section.seccionx h1 {
 /*testeo*/
 .fliping {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px;
 }
 
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 300px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -132,6 +132,10 @@ section.seccionx h1 {
     transform: rotateY(180deg);
   }
   
+  .flip-card-front img {
+    border-radius: 20px;
+  }
+
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
@@ -139,6 +143,9 @@ section.seccionx h1 {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 30px;
+    border: solid;
+    border-color: black;    
   }
   
   /* Style the front side (fallback if image is missing) */
