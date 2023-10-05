@@ -112,8 +112,8 @@ section.seccionx h1 {
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -133,7 +133,7 @@ section.seccionx h1 {
   }
   
   .flip-card-front img {
-    border-radius: 20px;
+    border-radius: 15px;
   }
 
   /* Position the front and back side */
@@ -143,7 +143,7 @@ section.seccionx h1 {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    border-radius: 30px;
+    border-radius: 45px;
     border: solid;
     border-color: black;    
   }
@@ -189,6 +189,10 @@ section.seccionx h1 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+    }
+    div.flip-card {
+        width: 100%;
+        height: 350px;
     }
 }
 
