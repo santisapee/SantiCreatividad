@@ -30,10 +30,13 @@ a.logo img {
 }
 
 section.primera-seccion {
-    background-image: url(../img/BANNER1.png);
+    background-image: url(../img/BANNER\ LOGOS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 section.primera-seccion h3{
@@ -83,18 +86,37 @@ div.marco div {
     height: auto;
 }
 
-section.seccionx {
-    display: grid;
-    grid-column: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(32, 32, 32);
-    color: white;
-    text-align: center;
+.row {
+    justify-content: space-between;
 }
 
-section.seccionx h1 {
-    padding: 20px;
+section.seccionx {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 10px;
+}
+
+section.secciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 10px;
+}
+
+div.futuros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(238, 75, 10);
+    padding: 10px;
+}
+div.futuros p {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
 
 .w3-card-4 {
@@ -110,7 +132,7 @@ section.seccionx h1 {
 .fliping {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 30px;
 }
 
 .flip-card {
